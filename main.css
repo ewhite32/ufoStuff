@@ -1,0 +1,17 @@
+html {
+ background-color: #6c9; 
+}
+h1 {
+ text-align: center; 
+}
+
+/* Media queries */
+@media only screen and (max-width: 750px) {
+  h1 {
+   text-align: center; 
+   font-style: italic;
+  }
+  #map {
+   align-self:center;
+  }
+  }
